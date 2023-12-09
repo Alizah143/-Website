@@ -1,0 +1,87 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu{
+    
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.register{
+      align-items: end;
+      text-align: end;
+
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    color: wheat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    background-repeat: cover;
+    background: url(🖤.jpeg);
+    background-size: cover;
+    }
+    .logo{
+        font-size: 2em;
+        color: white;
+        letter-spacing: 2px;
+    }
+    .menu a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    .register a:hover{
+        border: 1px solid indianred ;
+        background: transparent;
+    }
+    
+    
+    .register a{
+                 text-decoration: none;
+                 color: white;
+                 padding: 10px 20px;
+                 font-size: 20px;
+                 border-radius: 8px;
+                 background: indianred;
+    }
+    .h-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        max-width: 650px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    }
+    .h-text span{
+        letter-spacing: 5px;
+    }
+    .h-text h1{
+                   font-size: 3.5em;
+    }
+    .h-text a:hover{
+        border: 1px solid indianred;
+        background: transparent;
+        }
+    .h-text a{
+        text-decoration: none;
+        background: indianred;
+        padding: 10px 20px;
+        color: white;
+        letter-spacing: 5px;
+    }
+
+
