@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart watch website </title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@500&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    .container{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(45deg, #230223, #0f2d1e, #000);
+    }
+    .container .navbar{
+                  
+                         display: flex;
+                         height: 13vh;
+                        width: 85%;
+                         align-items: center;
+                         justify-content: space-between;
+                         margin: auto;
+    }
+    .navbar .navlist{
+        display: flex;
+        gap: 2.7rem;
+    }
+    .navbar li{
+        list-style: none;
+    }
+    .navlist a {
+             color: white;
+             text-decoration: none;
+             font-size: 1.2rem;
+             letter-spacing: .08rem;
+    }
+    .navbar button{
+        background-color: #e96658;
+        border: none;
+        font-size: 1.1rem;
+        color: white;
+        padding: .9rem 1.5rem;
+        letter-spacing: .08rem;
+        border-radius: .3rem ;
+        transition: .5s ease-in-out;
+    }
+    .navbar button:hover{
+        background-color: #fb8b7f;
+        cursor: pointer;
+    }
+    .hero{
+        display: flex;
+        align-items: center;
+        height: calc(100vh - 13vh);
+        width: 90%;
+        margin: auto;
+        gap: 4.2rem;
+    }
+    .img img{
+        height: 30rem;
+    }
+    .content h1{
+        color: white;
+        font-size: 3.5rem;
+        letter-spacing: .03rem;
+    }
+    .content h1 span{
+          color: #e96658;
+    }
+    .content p{
+        color: white;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 1.7rem 0;
+        letter-spacing: .03rem;
+    }
+    .content button{
+        background-color: transparent;
+        border: .1rem solid #e96658;
+        font-size: 1.1rem;
+        color: #e96658;
+        padding: .9rem 1.5rem;
+        letter-spacing: .08rem;
+        border-radius: .3rem ;
+        transition: .5s ease-in-out;
+        }
+        .content button:hover{
+            letter-spacing: .2rem;
+            cursor: pointer;
+        }
+        .features{
+            width: 40rem;
+            display: flex;
+            flex-direction: column;
+            gap: 6rem;
+        }
+        .features .card{
+            border-left: .3rem solid #e96658;
+            padding: .3rem 1rem;
+        }
+        .card h3{
+            color: white;
+            letter-spacing: .04rem;
+        }
+        .card:nth-child(1), .card:nth-child(3){
+            margin-left: 7rem;
+        }
+</style>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul class="navlist">
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Collection</a></li>
+           <li><a href="#">Pricing</a></li>
+           <li><a href="#">Contact</a></li>
+            </ul>
+            <button>Get Started</button>
+        </div>
+        <section class="hero">
+            <div class="content">
+                <h1>Smart Watch for <span> Luxurious Life</span></h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam numquam reiciendis labore possimus rerum magni minus iusto cumque, perspiciatis omnis.</p>
+                <button>Explore More</button>
+            </div>
+    <div class="img">
+        <img src="smart watch.png" alt="">
+    </div>
+    <div class="features">
+        <div class="card">
+            <img src="mark location.png" alt="">
+        <h3>GPS & Tracking</h3>
+        </div>
+    <div class="card">
+        <img src="heart pulse.png" alt="">
+    <h3>Heart Rate Sensor</h3>
+    </div>
+    <div class="card">
+        <img src="calories.png" alt="">
+    <h3>Calcories Count</h3>
+    </div>
+        </section>
+</body>
+</html>
